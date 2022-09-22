@@ -21,6 +21,6 @@ jobs:
         run: python codestats_box.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
-          CODE_STATS_USERNAME: ${{ secrets.CODE_STATS_USERNAME }}
+          GIST_ID: 2df365173112ba3a547c602addc162e0
+          CODE_STATS_USERNAME: mohamedbechirmejri
           STATS_TYPE: ${{ secrets.STATS_TYPE }}
